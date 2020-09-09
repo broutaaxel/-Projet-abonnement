@@ -1,0 +1,27 @@
+/*setting for buttons */
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 17%;
+    font-size: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}

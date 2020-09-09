@@ -1,0 +1,11 @@
+<p class="user" *ngIf="user">Welcome to us {{user?.displayName}} <br/> {{user?.email}}</p>
+<div class="logout">
+    <button class="btn btn-primary btn-lg mb-2" *ngIf="user" (click)="logout()">Logout</button>
+</div>
+<h4 class="mt-4" class="home">Welcome on My Website</h4>
+
+<div class="button">
+    <button class="btn btn-primary btn-lg mb-2 mr-2" *ngIf="!user" (click)="register()">Register</button>
+
+    <button class="btn btn-primary btn-lg mb-2" *ngIf="!user" (click)="login()">Login</button>
+</div>
